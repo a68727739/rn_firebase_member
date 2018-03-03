@@ -42,3 +42,7 @@ rn crud firebase with member (register and sign in sign out)
     step07 run android or xcode 模擬器
     step08 根目錄  react-native run-android(run-ios) 
 
+```
+DEMO
+```
+![image](https://github.com/a68727739/rn_firebase_member/blob/master/demo01.gif)
