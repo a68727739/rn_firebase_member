@@ -32,6 +32,13 @@ rn crud firebase with member (register and sign in sign out)
 </script>
 ```
     step04 設定firebase的Authentication 設定為 電子信箱 登入 enable
-    step05 根目錄下npm install 
-    step06 run android or xcode 模擬器
-    step07 根目錄  react-native run-android(run-ios) 
+    step05 根目錄下npm install
+```    
+    step06
+    打開項目node_modules/react-native/local-cli/server/server.js
+　　找到 process.on('uncaughtException', error =>
+　　{ 這個方法，把最後一句 process.exit(11); 註釋掉。
+```
+    step07 run android or xcode 模擬器
+    step08 根目錄  react-native run-android(run-ios) 
+
